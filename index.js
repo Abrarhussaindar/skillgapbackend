@@ -29,8 +29,8 @@ mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
-    app.listen(8800, () => {
-        console.log('Backend server is running on port 8800');
+    app.listen(4000, () => {
+        console.log('Backend server is running on port 4000');
     });
 }).catch((error) => {
     console.error(`${error} did not connect`);
