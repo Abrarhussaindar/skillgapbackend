@@ -106,7 +106,79 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
-    Education:{
+    Qualification:{
+        type: String,
+        default: ""
+    },
+    OtherQualification:{
+        type: String,
+        default: ""
+    },
+    Stream:{
+        type: String,
+        default: ""
+    },
+    OtherStream:{
+        type: String,
+        default: ""
+    },
+    Subject:{
+        type: String,
+        default: ""
+    },
+    OtherSubject:{
+        type: String,
+        default: ""
+    },
+    Course:{
+        type: String,
+        default: ""
+    },
+    OtherCourse:{
+        type: String,
+        default: ""
+    },
+    Field:{
+        type: String,
+        default: ""
+    },
+    OtherField:{
+        type: String,
+        default: ""
+    },
+    Branch:{
+        type: String,
+        default: ""
+    },
+    OtherBranch:{
+        type: String,
+        default: ""
+    },
+    Mphill:{
+        type: String,
+        default: ""
+    },
+    Phd:{
+        type: String,
+        default: ""
+    },
+    Prof:{
+        type: String,
+        default: ""
+    },
+    DipCourse:{
+        type: String,
+        default: ""
+    },
+    OtherDipCourse:{
+        type: String,
+        default: ""
+    },
+    ItiCourse:{
+        type: String,
+        default: ""
+    },
+    OtherItiCourse:{
         type: String,
         default: ""
     },

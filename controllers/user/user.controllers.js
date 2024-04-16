@@ -77,7 +77,27 @@ const Createuser = async (req, res) => {
 
             // first Form
             EmployeeStatus: req.body.EmployeeStatus,
-            Education: req.body.Education,
+            Qualification: req.body.Qualification,
+            OtherQualification: req.body.OtherQualification,
+            Stream: req.body.Stream,
+            OtherStream: req.body.OtherStream,
+            Subject: req.body.Subject,
+            OtherSubject: req.body.OtherSubject,
+            Course: req.body.Course,
+            OtherCourse: req.body.OtherCourse,
+            Field: req.body.Field,
+            OtherField: req.body.OtherField,
+            Branch: req.body.Branch,
+            OtherBranch: req.body.OtherBranch,
+            Mphill: req.body.Mphill,
+            Phd: req.body.Phd,
+            Prof: req.body.Prof,
+            DipCourse: req.body.DipCourse,
+            OtherDipCourse: req.body.OtherDipCourse,
+            ItiCourse: req.body.ItiCourse,
+            OtherItiCourse: req.body.OtherItiCourse,
+
+
             Occupation: req.body.Occupation,
             OtherOccupation: req.body.OtherOccupation,
             CurrentSkillLevel: req.body.CurrentSkillLevel,
