@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 const UserSchema = new mongoose.Schema({
     //  genform
@@ -169,8 +170,8 @@ const UserSchema = new mongoose.Schema({
         default: ""
     },
     Scale:{
-        type: String,
-        default: ""
+        type: Schema.Types.Mixed,
+        default: {}
     },
     CriticalSkillGap:{
         type: String,
