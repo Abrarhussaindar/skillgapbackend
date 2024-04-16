@@ -114,11 +114,19 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
+    OtherOccupation:{
+        type: String,
+        default: ""
+    },
     CurrentSkillLevel:{
         type: String,
         default: ""
     },
     CrucialSkill:{
+        type: String,
+        default: ""
+    },
+    OtherCrucialSkill:{
         type: String,
         default: ""
     },
@@ -134,7 +142,15 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
+    OtherSpecificSkills:{
+        type: String,
+        default: ""
+    },
     NecessaySkills:{
+        type: String,
+        default: ""
+    },
+    OtherNecessaySkills:{
         type: String,
         default: ""
     },
@@ -147,6 +163,10 @@ const UserSchema = new mongoose.Schema({
         default: ""
     },
     GovSupportSkillDev:{
+        type: String,
+        default: ""
+    },
+    OtherGovSupportSkillDev:{
         type: String,
         default: ""
     },
@@ -169,11 +189,23 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
+    OtherSpecificArea:{
+        type: String,
+        default: ""
+    },
     Scale:{
         type: Schema.Types.Mixed,
         default: {}
     },
     CriticalSkillGap:{
+        type: String,
+        default: ""
+    },
+    Factors:{
+        type: String,
+        default: ""
+    },
+    OtherFactors:{
         type: String,
         default: ""
     },
@@ -198,6 +230,10 @@ const UserSchema = new mongoose.Schema({
         default: ""
     },
     StayUpdated:{
+        type: String,
+        default: ""
+    },
+    OtherStayUpdated:{
         type: String,
         default: ""
     },
