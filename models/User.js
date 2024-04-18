@@ -211,16 +211,16 @@ const UserSchema = new mongoose.Schema({
         default: ""
     },
     SpecificSkills:{
-        type: String,
-        default: ""
+        type: [String],
+        default: []
     },
     OtherSpecificSkills:{
         type: String,
         default: ""
     },
     NecessaySkills:{
-        type: String,
-        default: ""
+        type: [String],
+        default: []
     },
     OtherNecessaySkills:{
         type: String,
@@ -274,8 +274,8 @@ const UserSchema = new mongoose.Schema({
         default: ""
     },
     Factors:{
-        type: String,
-        default: ""
+        type: [String],
+        default: []
     },
     OtherFactors:{
         type: String,

@@ -21,14 +21,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
-const url = "mongodb+srv://abrardar988651:Abrardar123@cluster0.v7o1wev.mongodb.net/"
+const url = "mongodb+srv://abrardar988651:Abrardar123@freeserver.wc1ytkf.mongodb.net/SkillGap"
 
 app.use("/api/user", userRoute);
+
 
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
+    
     app.listen(4000, () => {
         console.log('Backend server is running on port 4000');
     });
